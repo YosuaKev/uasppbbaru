@@ -1,25 +1,25 @@
 package com.example.quizkit.data.common
 
-val educationList = listOf("Geography", "History", "Politics", "Animals", "Mythology")
+val educationList = listOf("Geografi", "Sejarah", "Politik", "Hewan", "Mytoligi")
 val entertainmentList = listOf(
-    "Musical And Theaters",
+    "Musik dan teater",
     "Film",
-    "Television",
-    "Celebrities",
+    "Televisi",
+    "Selebriti",
 )
-val technologyList = listOf("Gadgets", "computers")
-val artList = listOf("Art")
-val scienceList = listOf("Mathematics", "Science & Nature")
+val technologyList = listOf("Gadget", "Komputer")
+val artList = listOf("Seni")
+val scienceList = listOf("Matematika", "Sains & Alam")
 val showbizList =
     listOf(
-        "Japanese Anime & Manga",
-        "Cartoon & Animation",
-        "Comics",
-        "Sports",
-        "Vehicles",
-        "Books",
-        "Board Games",
-        "Video Games"
+        "Anime & Manga Jepang",
+        "Cartoon & Animasi",
+        "Komik",
+        "Olahraga",
+        "Kendaraan",
+        "Buku",
+        "Permainan papan",
+        "permainan video"
     )
 
 
@@ -33,49 +33,49 @@ val categoryQuizList = mapOf(
 )
 
 val quizCategoryId = mapOf(
-    "Geography" to 22,
-    "History" to 23,
-    "Politics" to 24,
-    "Animals" to 27,
-    "Mythology" to 20,
-    "Musical And Theaters" to 13,
+    "Geografi" to 22,
+    "Sejarah" to 23,
+    "Politik" to 24,
+    "Hewan" to 27,
+    "Mytologi" to 20,
+    "Musik dan teater" to 13,
     "Film" to 11,
-    "Television" to 14,
-    "Celebrities" to 26,
+    "Televisi" to 14,
+    "Selebriti" to 26,
     "Gadgets" to 30,
-    "computers" to 18,
-    "Art" to 25,
-    "Mathematics" to 19,
-    "Science & Nature" to 17,
-    "Japanese Anime & Manga" to 31,
-    "Cartoon & Animation" to 32,
-    "Comics" to 29,
-    "Sports" to 21,
-    "Vehicles" to 28,
-    "Books" to 10,
-    "Board Games" to 16
+    "Komputer" to 18,
+    "Seni" to 25,
+    "Matematika" to 19,
+    "Sains & Alam" to 17,
+    "Anime & Manga Jepang" to 31,
+    "Cartoon & Animasi" to 32,
+    "Komik" to 29,
+    "Olahraga" to 21,
+    "Kendaraan" to 28,
+    "Buku" to 10,
+    "Permainan papan" to 16
 )
 
 val quizCategoryDescription = mapOf(
-    "Geography" to "This quiz tests your knowledge of the world's geography, from capitals and countries to landscapes and landmarks. Are you ready to explore the globe?",
-    "History" to "Delve into the past with this history quiz, covering significant events, influential figures, and pivotal moments that shaped the world we live in today.",
-    "Politics" to "This quiz challenges your understanding of political systems, leaders, and historical political events. How well do you know the world's political landscape?",
-    "Animals" to "Discover the animal kingdom with this quiz, which explores various species, their habitats, behaviors, and unique traits. Perfect for wildlife enthusiasts!",
-    "Mythology" to "Step into the realm of myths and legends with this quiz, featuring questions on gods, heroes, creatures, and stories from different cultures around the world.",
-    "Musical And Theaters" to "This quiz is a treat for theater lovers, covering famous musicals, plays, playwrights, and iconic performances. Test your knowledge of the stage!",
-    "Film" to "Lights, camera, action! This quiz covers the world of cinema, from classic films and directors to modern blockbusters and movie trivia.",
-    "Television" to "Are you a TV buff? This quiz includes questions on popular TV shows, memorable episodes, actors, and behind-the-scenes trivia from the world of television.",
-    "Celebrities" to "How well do you know your celebrities? This quiz focuses on famous personalities from various fields, their careers, and their lives in the spotlight.",
-    "Gadgets" to "This quiz is perfect for tech enthusiasts, with questions about the latest gadgets, technological innovations, and the history of electronic devices.",
-    "computers" to "Dive into the digital world with this quiz, covering computer science basics, hardware, software, programming, and the evolution of computers.",
-    "Art" to "Explore the world of art with this quiz, which features questions on famous artists, art movements, masterpieces, and art history.",
-    "Mathematics" to "Challenge your mathematical skills with this quiz, including questions on arithmetic, algebra, geometry, calculus, and famous mathematicians.",
-    "Science & Nature" to "This quiz explores the wonders of the natural world and scientific discoveries, from biology and chemistry to physics and environmental science.",
-    "Japanese Anime & Manga" to "For anime and manga fans, this quiz covers popular series, characters, creators, and iconic moments from Japanese animation and comics.",
-    "Cartoon & Animation" to "This quiz celebrates animated shows and movies, with questions about beloved cartoons, characters, and the history of animation.",
-    "Comics" to "Step into the world of comics with this quiz, featuring superheroes, graphic novels, comic strips, and famous comic book creators.",
-    "Sports" to "Test your sports knowledge with this quiz, including questions on various sports, athletes, historic matches, and sporting events.",
-    "Vehicles" to "This quiz is for automotive enthusiasts, covering cars, motorcycles, planes, and other vehicles, their history, and technological advancements.",
-    "Books" to "Bookworms will love this quiz, which features questions on literary classics, authors, genres, and famous books throughout history.",
-    "Board Games" to "Challenge your board game knowledge with this quiz, including questions on classic games, strategies, rules, and the history of board gaming."
+    "Geografi" to "Kuis ini menguji pengetahuan Anda tentang geografi dunia, mulai dari ibu kota dan negara hingga lanskap dan bangunan terkenal. Apakah Anda siap menjelajahi dunia?",
+    "Sejarah" to "Selidiki masa lalu dengan kuis sejarah ini, yang mencakup peristiwa penting, tokoh berpengaruh, dan momen penting yang membentuk dunia yang kita tinggali saat ini.",
+    "Politik" to "Kuis ini menantang pemahaman Anda tentang sistem politik, pemimpin, dan peristiwa politik bersejarah. Seberapa baik Anda mengetahui lanskap politik dunia?",
+    "Hewan" to "Temukan dunia hewan dengan kuis ini, yang mengeksplorasi berbagai spesies, habitat, perilaku, dan sifat uniknya. Sempurna untuk penggemar satwa liar!",
+    "Mytologi" to "Masuki dunia mitos dan legenda dengan kuis ini, yang menampilkan pertanyaan tentang dewa, pahlawan, makhluk, dan cerita dari berbagai budaya di seluruh dunia.",
+    "Musik dan teater" to "Kuis ini merupakan suguhan bagi pecinta teater, meliputi musikal terkenal, drama, penulis naskah drama, dan pertunjukan ikonik. Uji pengetahuan Anda tentang panggung!",
+    "Film"  to "Lampu, kamera, aksi! Kuis ini mencakup dunia perfilman, mulai dari film dan sutradara klasik hingga film blockbuster modern dan film trivia.",
+    "Televiisi" to "Apakah Anda penggemar TV? Kuis ini mencakup pertanyaan tentang acara TV populer, episode berkesan, aktor, dan hal-hal sepele di balik layar dari dunia pertelevisian.",
+    "Selebriti" to "Seberapa baik Anda mengenal selebriti Anda? Kuis ini berfokus pada tokoh-tokoh terkenal dari berbagai bidang, karier, dan kehidupan mereka yang menjadi sorotan.",
+    "Gadgets" to "Kuis ini sangat cocok untuk para pecinta teknologi, dengan pertanyaan tentang gadget terkini, inovasi teknologi, dan sejarah perangkat elektronik.",
+    "Komputer" to "Selami dunia digital dengan kuis ini, yang mencakup dasar-dasar ilmu komputer, perangkat keras, perangkat lunak, pemrograman, dan evolusi komputer.",
+    "Seni" to "Jelajahi dunia seni dengan kuis ini, yang menampilkan pertanyaan tentang seniman terkenal, gerakan seni, mahakarya, dan sejarah seni.",
+    "Matematika" to "Tantang kemampuan matematika Anda dengan kuis ini, termasuk pertanyaan tentang aritmatika, aljabar, geometri, kalkulus, dan matematikawan terkenal.",
+    "Sains & Alam" to "Kuis ini mengeksplorasi keajaiban alam dan penemuan ilmiah, mulai dari biologi dan kimia hingga fisika dan ilmu lingkungan.",
+    "Anime & Manga Jepang" to "Untuk penggemar anime dan manga, kuis ini mencakup serial populer, karakter, pencipta, dan momen ikonik dari animasi dan komik Jepang.",
+    "Cartoon & Animasi" to "Kuis ini merayakan acara animasi dan film, dengan pertanyaan tentang kartun favorit, karakter, dan sejarah animasi.",
+    "Komik" to "Masuki dunia komik dengan kuis ini, yang menampilkan pahlawan super, novel grafis, komik strip, dan pembuat buku komik terkenal.",
+    "Olahraga" to "Uji pengetahuan olahraga Anda dengan kuis ini, termasuk pertanyaan tentang berbagai olahraga, atlet, pertandingan bersejarah, dan acara olahraga.",
+    "Kendaraan" to "Kuis ini diperuntukkan bagi para pecinta otomotif yang meliputi mobil, sepeda motor, pesawat terbang, dan kendaraan lainnya, sejarahnya, dan kemajuan teknologinya.",
+    "Buku" to "Kutu buku akan menyukai kuis ini, yang menampilkan pertanyaan tentang sastra klasik, penulis, genre, dan buku terkenal sepanjang sejarah.",
+    "Permainan papan" to "Tantang pengetahuan permainan papan Anda dengan kuis ini, termasuk pertanyaan tentang permainan klasik, strategi, aturan, dan sejarah permainan papan."
 )
