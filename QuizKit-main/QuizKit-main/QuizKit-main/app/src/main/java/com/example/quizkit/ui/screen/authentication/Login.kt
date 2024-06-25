@@ -34,6 +34,7 @@ import com.example.quizkit.R
 import com.example.quizkit.data.common.Screen
 import com.example.quizkit.ui.component.InputForm
 import com.example.quizkit.ui.component.TopBar
+import com.example.quizkit.ui.theme.PrimaryRed
 import org.koin.androidx.compose.koinViewModel
 
 @Composable
@@ -56,7 +57,7 @@ fun LoginScreen(navController: NavController, authViewModel: AuthViewModel = koi
                 navController.popBackStack()
             })
         },
-        containerColor = Color(0xFFFFD180),
+        containerColor = PrimaryRed,
         contentColor = Color.Black
     ) {
         Column(
@@ -79,7 +80,7 @@ fun LoginScreen(navController: NavController, authViewModel: AuthViewModel = koi
                     .fillMaxWidth()
                     .height(56.dp),
                 colors = ButtonDefaults.buttonColors(
-                    containerColor = Color(0xFFBF360C),
+                    containerColor = colorResource(id = R.color.skin_background),
                     contentColor = Color.White
                 )
             ) {
@@ -97,7 +98,7 @@ fun LoginScreen(navController: NavController, authViewModel: AuthViewModel = koi
                     }
                     withStyle(
                         style = SpanStyle(
-                            color = Color(0xFFBF360C),
+                            color = Color.White,
                             fontWeight = FontWeight.Bold
                         )
                     ) {
