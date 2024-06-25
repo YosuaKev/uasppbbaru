@@ -52,7 +52,7 @@ fun TopBar(navBackStackEntry: NavBackStackEntry?, navigateBack: () -> Unit) {
 @Composable
 fun TopBarLeftIcon(title: String, navigateBack: () -> Unit) {
     val colorPaint: Color =
-        if (title == "Login" || title == "Register") PrimaryRed else Color.White
+        if (title == "Login" || title == "Register") Color.White else Color.White
 
     CenterAlignedTopAppBar(
         modifier = Modifier.padding(horizontal = 16.dp),
@@ -98,7 +98,7 @@ fun TopBarProfile(homeViewModel: HomeViewModel = koinViewModel(), mainViewModel:
                                     text = DateConverter(System.currentTimeMillis()),
                                     fontSize = 18.sp,
                                     fontWeight = FontWeight.Medium,
-                                    color = RedPink80
+                                    color = Color.White
                                 )
                                 Text(
                                     text = user.name,
