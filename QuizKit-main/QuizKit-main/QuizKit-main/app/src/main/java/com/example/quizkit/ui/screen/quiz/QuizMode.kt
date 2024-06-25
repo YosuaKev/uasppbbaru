@@ -84,7 +84,7 @@ fun QuizMode(
     Column(
         Modifier
             .fillMaxSize()
-            .background(color = colorResource(id = R.color.primary_purple))
+            .background(color = colorResource(id = R.color.red))
     ) {
         LaunchedEffect(key1 = settingsQuiz) {
             quizViewModel.getQuiz(settingsQuiz)
@@ -271,7 +271,7 @@ fun QuizQuestion(
                         ),
                         contentDescription = "logo",
                         modifier = Modifier.padding(10.dp),
-                        tint = colorResource(id = R.color.primary_purple)
+                        tint = colorResource(id = R.color.red)
                     )
                 }
                 Spacer(modifier = Modifier.width(16.dp))
@@ -335,7 +335,7 @@ fun QuizQuestion(
                                     .fillMaxWidth()
                                     .padding(vertical = 4.dp),
                                 colors = ButtonDefaults.buttonColors(
-                                    containerColor = colorResource(id = if (isSelected.value) R.color.primary_purple else R.color.white),
+                                    containerColor = colorResource(id = if (isSelected.value) R.color.red else R.color.white),
                                     contentColor = colorResource(id = if (isSelected.value) R.color.white else R.color.black)
                                 ),
                                 border = BorderStroke(0.5.dp, colorResource(id = R.color.black)),
@@ -372,7 +372,7 @@ fun QuizQuestion(
                         modifier = Modifier
                             .border(
                                 1.5.dp,
-                                colorResource(id = R.color.primary_purple),
+                                colorResource(id = R.color.red),
                                 shape = RoundedCornerShape(10.dp)
                             )
                             .height(64.dp)
@@ -380,7 +380,7 @@ fun QuizQuestion(
                         Icon(
                             painter = painterResource(id = R.drawable.back),
                             contentDescription = "back",
-                            tint = colorResource(id = R.color.primary_purple)
+                            tint = colorResource(id = R.color.red)
                         )
                     }
                 }
@@ -426,7 +426,7 @@ fun QuizQuestion(
                         .height(60.dp),
                     shape = RoundedCornerShape(10.dp),
                     colors = ButtonDefaults.buttonColors(
-                        containerColor = colorResource(id = R.color.primary_purple),
+                        containerColor = colorResource(id = R.color.red),
                     ),
                 ) {
                     Text(text = if (isSubmit) "Submit" else "next", fontSize = 20.sp)
