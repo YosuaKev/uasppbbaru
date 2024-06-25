@@ -95,7 +95,7 @@ fun QuizResultContent(
     navigateToHome: () -> Unit,
     navigateToAnswer: (Int) -> Unit
 ) {
-    Column(Modifier.background(color = colorResource(id = R.color.primary_purple))) {
+    Column(Modifier.background(color = colorResource(id = R.color.red))) {
         Card(
             modifier = Modifier
                 .fillMaxSize()
@@ -116,7 +116,7 @@ fun QuizResultContent(
                             .padding(horizontal = 16.dp)
                             .height(50.dp),
                         colors = ButtonDefaults.buttonColors(
-                            containerColor = colorResource(id = R.color.primary_purple)
+                            containerColor = colorResource(id = R.color.red)
                         ),
                         shape = RoundedCornerShape(16.dp)
                     ) {
@@ -130,7 +130,7 @@ fun QuizResultContent(
                             .height(50.dp)
                             .border(
                                 width = 1.dp,
-                                color = colorResource(id = R.color.primary_purple),
+                                color = colorResource(id = R.color.red),
                                 shape = RoundedCornerShape(16.dp)
                             ),
                         colors = ButtonDefaults.buttonColors(
@@ -142,7 +142,7 @@ fun QuizResultContent(
                             text = "Close",
                             fontSize = 24.sp,
                             fontWeight = FontWeight.Bold,
-                            color = colorResource(id = R.color.primary_purple)
+                            color = colorResource(id = R.color.red)
                         )
                     }
                 }
@@ -162,7 +162,7 @@ fun BoxResult(
                 .fillMaxWidth()
                 .fillMaxSize(0.4f),
             colors = CardDefaults.cardColors(
-                containerColor = colorResource(id = R.color.primary_purple)
+                containerColor = colorResource(id = R.color.red)
             ),
         ) {
             Column(
